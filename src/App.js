@@ -1,9 +1,14 @@
 import './App.css';
+import { Navbar, Hero, Features, Articles, Footer } from './components';
 
 function App() {
   return (
     <div className="App">
-          Learn React
+      <Navbar />
+      <Hero />
+      <Features />
+      <Articles />
+      <Footer />
     </div>
   );
 }
